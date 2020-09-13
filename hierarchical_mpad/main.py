@@ -11,8 +11,8 @@ import torch.optim as optim
 from torch.autograd import Variable
 from torch.optim.lr_scheduler import StepLR
 
-from utils import load_file, preprocessing, get_vocab, load_embeddings, create_gows, accuracy, generate_batches, AverageMeter
-from models import MPAD
+from hierarchical_mpad.utils import load_file, preprocessing, get_vocab, load_embeddings, create_gows, accuracy, generate_batches, AverageMeter
+from hierarchical_mpad.models import MPAD
 
 # Training settings
 parser = argparse.ArgumentParser()
